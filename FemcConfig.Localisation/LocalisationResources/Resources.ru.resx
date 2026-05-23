@@ -285,6 +285,12 @@
   <data name="AOATextDesc" xml:space="preserve">
     <value>Текст, который будет показываться при завершении битвы с All-out Attack.</value>
   </data>
+	<data name="CustomBustupsDesc" xml:space="preserve">
+    <value>Non-Femc Bustup variants</value>
+  </data>
+	<data name="CustomBustups" xml:space="preserve">
+    <value>Custom Bustups</value>
+  </data>
   <data name="Author" xml:space="preserve">
     <value>Автор</value>
   </data>

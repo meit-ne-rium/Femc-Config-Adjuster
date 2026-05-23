@@ -387,6 +387,12 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty]
     private bool _TheodorefromAlvinandTheChipmunks = false;
 
+    // --- Custom Bustups ---
+    [Category("2D Options")]
+    [DefaultValue(true)]
+    [ObservableProperty]
+    private bool _CustomBustups = true;
+
     // --- Testing ---
     [Category("Testing")]
     [DefaultValue(false)]
