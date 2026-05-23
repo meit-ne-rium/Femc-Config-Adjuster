@@ -214,6 +214,24 @@ namespace FemcConfig.Localisation.LocalisationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Custom Bustups.
+        /// </summary>
+        public static string CustomBustups {
+            get {
+                return ResourceManager.GetString("CustomBustups", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Non-Femc Bustup variants.
+        /// </summary>
+        public static string CustomBustupsDesc {
+            get {
+                return ResourceManager.GetString("CustomBustupsDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cutin.
         /// </summary>
         public static string Cutin {
