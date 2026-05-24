@@ -784,7 +784,7 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty] private ConfigColor _NextSkillOutterOutlineColor = new ConfigColor(0x59, 0x02, 0x23, 0xFF);
     [ObservableProperty] private ConfigColor _NextSkillInnerOutlineColor = new ConfigColor(0xFD, 0x9B, 0xB7, 0xFF);
     [ObservableProperty] private ConfigColor _PersonaFusionShadow = new ConfigColor(0x30, 0x10, 0x27, 0xFF);
-    [ObservableProperty] private ConfigColor _PersonaSocialLinkInheritance = new ConfigColor(0x6E, 0x03, 0x0A, 0xFF);
+    [ObservableProperty] private ConfigColor _PersonaSocialLinkInheritance = new ConfigColor(0x5E, 0x00, 0x0F, 0xFF);
     [ObservableProperty] private ConfigColor _MutationStripColor = new ConfigColor(0xC6, 0x00, 0x35, 0xFF);
     [ObservableProperty] private ConfigColor _PersonaLvlUpSkillListNextSkillColor = new ConfigColor(0xFF, 0x7D, 0xA9, 0xFF);
     [ObservableProperty] private ConfigColor _FusionTopRightIndicatorColors = new ConfigColor(0xFF, 0xBD, 0xCE, 0xFF);
@@ -824,7 +824,7 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty] private ConfigColor _PersonaStatusDeepColorFilter = new ConfigColor(0xFF, 0x00, 0x58, 0xA9);
     [ObservableProperty] private ConfigColor _PersonaStatusMediumStrongColorFilter = new ConfigColor(0x77, 0x00, 0x42, 0xFF);
     [ObservableProperty] private ConfigColor _PersonaStatusSoftColorFilter = new ConfigColor(0x8B, 0x01, 0x48, 0xFF);
-    [ObservableProperty] private ConfigColor _PersonaStatusInheritanceSquareColor = new ConfigColor(0x00, 0xD8, 0xFF, 0x00);
+    [ObservableProperty] private ConfigColor _PersonaStatusInheritanceSquareColor = new ConfigColor(0x5E, 0x00, 0x0F, 0x00);
     [ObservableProperty] private ConfigColor _PersonaStatusStripColor = new ConfigColor(0xF4, 0x5A, 0x85, 0xFF);
     [ObservableProperty] private ConfigColor _PersonaStatusWavesStripColor = new ConfigColor(0x00, 0xD8, 0xFF, 0xFF);
     [ObservableProperty] private ConfigColor _PersonaStatusMMUnk1 = new ConfigColor(0x00, 0xD8, 0xFF, 0xB2);
@@ -947,8 +947,8 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty] private ConfigColor _CalendarHighlightedDay = new ConfigColor(0x07, 0x40, 0xFD, 0xFF);
     [ObservableProperty] private ConfigColor _CalendarHighlightedJob = new ConfigColor(0x00, 0x00, 0xF1, 0xFF);
     [ObservableProperty] private ConfigColor _CalendarJobDetailFont = new ConfigColor(0xFF, 0xBD, 0xCE, 0xFF);
-    [ObservableProperty] private ConfigColor _CampItemEffectBG = new ConfigColor(0xFF, 0xBD, 0xCE, 0xFF);
-    [ObservableProperty] private ConfigColor _CampItemEffectFont = new ConfigColor(0x49, 0x04, 0x21, 0xFF);
+    [ObservableProperty] private ConfigColor _CampItemEffectBG = new ConfigColor(0xFF, 0xE7, 0xAD, 0xFF);
+    [ObservableProperty] private ConfigColor _CampItemEffectFont = new ConfigColor(0x55, 0x1F, 0x3B, 0xFF);
     [ObservableProperty] private ConfigColor _CampMenuSystemItemColor1 = new ConfigColor(0xFD, 0xDF, 0xA1, 0xFF);
     [ObservableProperty] private ConfigColor _CampMenuSystemItemColor2 = new ConfigColor(0xFF, 0xD7, 0x9D, 0xFF);
     [ObservableProperty] private ConfigColor _CampMenuSystemItemColor3 = new ConfigColor(0xFF, 0xBA, 0x67, 0xFF);
@@ -1152,4 +1152,19 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty] private ConfigColor _BtlStrategyInstructColor3 = new ConfigColor(0x66, 0x05, 0x39, 0xFF);
     [ObservableProperty] private ConfigColor _BtlStrategyInstructColorHighlight = new ConfigColor(0x00, 0xC2, 0xFF, 0xFF);
     [ObservableProperty] private ConfigColor _SocialStatsParticlesColor = new ConfigColor(0xFF, 0x36, 0x83, 0xFF);
+    [ObservableProperty] private ConfigColor _PersonaStatusStatsPaddingColor = new ConfigColor(0xF0, 0x75, 0xA5, 0xFF);
+    [ObservableProperty] private ConfigColor _Assault1Keyframe1 = new ConfigColor(0xFF, 0x25, 0x6E, 0x00);
+    [ObservableProperty] private ConfigColor _Assault1Keyframe2 = new ConfigColor(0xFF, 0x25, 0x66, 0x36);
+    [ObservableProperty] private ConfigColor _Assault1Keyframe3 = new ConfigColor(0xFF, 0x00, 0x55, 0x5B);
+    [ObservableProperty] private ConfigColor _Assault1Keyframe4 = new ConfigColor(0x8C, 0x00, 0x1C, 0xFF);
+    [ObservableProperty] private ConfigColor _Assault1Keyframe5 = new ConfigColor(0x8C, 0x00, 0x1C, 0x00);
+    [ObservableProperty] private ConfigColor _Assault2Keyframe1 = new ConfigColor(0xFF, 0x0F, 0x5F, 0x00);
+    [ObservableProperty] private ConfigColor _Assault2Keyframe2 = new ConfigColor(0xFF, 0x0C, 0x5D, 0xFF);
+    [ObservableProperty] private ConfigColor _Assault2Keyframe3 = new ConfigColor(0xFF, 0x02, 0x63, 0xFF);
+    [ObservableProperty] private ConfigColor _Assault2Keyframe4 = new ConfigColor(0x8D, 0x00, 0x1C, 0x8D);
+    [ObservableProperty] private ConfigColor _Assault2Keyframe5 = new ConfigColor(0x8D, 0x00, 0x1C, 0x00);
+    [ObservableProperty] private ConfigColor _AssaultBallsKeyframe1 = new ConfigColor(0xFF, 0x59, 0x8E, 0xFF);
+    [ObservableProperty] private ConfigColor _AssaultBallsKeyframe2 = new ConfigColor(0xFF, 0x26, 0x76, 0xFF);
+    [ObservableProperty] private ConfigColor _AssaultBallsKeyframe3 = new ConfigColor(0xFF, 0x00, 0x59, 0xFF);
+    [ObservableProperty] private ConfigColor _AssaultBallsKeyframe45 = new ConfigColor(0xFF, 0x00, 0x66, 0xFF);
 }
