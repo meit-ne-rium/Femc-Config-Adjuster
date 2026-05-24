@@ -583,7 +583,7 @@ public partial class FemcModConfig : ObservableObject
     [ObservableProperty] private ConfigColor _CampCalendarSundayColor = new ConfigColor(0xFF, 0x00, 0x00, 0xFF);
     [ObservableProperty] private ConfigColor _CampCalendarSundayColor2 = new ConfigColor(0xEE, 0x00, 0x00, 0xFF);
     [ObservableProperty] private ConfigColor _CampCalendarTextColor = new ConfigColor(0x3D, 0x03, 0x1C, 0xFF);
-    [ObservableProperty] private ConfigColor _CampCalendarHighlightColor = new ConfigColor(0x46, 0xE7, 0xFF, 0xFF);
+    [ObservableProperty] private ConfigColor _CampCalendarHighlightColor = new ConfigColor(0xFF, 0x7E, 0xA2, 0xFF);
     [ObservableProperty] private ConfigColor _CampCalendarPartTimeJobBackground = new ConfigColor(0xB6, 0x3F, 0x67, 0xFF);
     [ObservableProperty] private ConfigColor _PartyPanelBgColor = new ConfigColor(0xE9, 0x57, 0x80, 0xFF);
     [ObservableProperty] private ConfigColor _ButtonPromptHighlightColor = new ConfigColor(0xFF, 0x58, 0x6A, 0xFF);
